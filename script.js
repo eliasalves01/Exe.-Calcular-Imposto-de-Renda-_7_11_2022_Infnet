@@ -1,6 +1,6 @@
 let salario = Number(prompt("Qual seu Sálario?"));
 
-if (salario > 0) {
+if (salario > 0 && typeof  42) {
 
   if (salario >= 0.1 && salario <= 1903.98) {
     alert(`Você é isento do imposto de renda`);
